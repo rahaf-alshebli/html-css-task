@@ -1,0 +1,68 @@
+<html>
+    <head>
+         <title> 
+</title>
+    <title>Registration form </title>
+</head>
+<style >
+    label{
+      width: 70px;
+      display: inline-block;
+    }
+    #formbox {
+            width:400px;
+            margin:auto 0;
+            text-align: center;
+        }
+
+  </style> <body> 
+    <h2> Registration form</h2>
+    <form> 
+        <label for="User id">User ID :  </label>
+        <input type="text" style="width:3cm;" required> <br>
+        <br>
+        <label for="password">password :</label>
+  <input type="password" style="width:3cm;"  required> <br>
+  <br>
+    <label for="name">name : </label>
+<input type="text"  required> <br>
+<br>
+<label for="address">address : </label>
+<input type="text" > <br> 
+<br>
+<label for="coun">Country:</label>
+            <select  style="width:5cm;"  name="country">
+                <option value="Pleace Select a Country" selected >Pleace Select a Country</option>
+                <option value="Jordan">Jordan</option>
+                <option value="KSA">China</option>
+                <option value="USA">USA</option>
+              </select>
+ <br>
+        <br>
+        <label for="Zip code"> Zip code </label>
+<input type="text"><br>
+<br>
+<label for="email" > Email</label> <input type="email" ><br>
+<br>
+<span>sex : </span>
+<input type="radio"  name="sex" > <label for="male">male </label>  <input type="radio"  name="sex" > <label for="female" > female</label> <br>
+<br>
+language 
+<input type="checkbox"  name="select language"> 
+<label for="language">English</label>
+<input type="checkbox" id="non english" name="select language">
+<label for="language"> non english</label> <br>
+<br>
+
+<label for="about">about</label>
+<input type="text" style="width:7cm; height: 5cm; padding-bottom: 160px;" > 
+<br>
+<br>
+<br>
+<br>
+<div id="formbox">
+ <button type="submit"> submit</button>
+</div>
+</form> 
+</body>
+</html>

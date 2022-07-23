@@ -1,0 +1,30 @@
+h2{
+    text-decoration: underline;
+}
+.link{ color:orange;
+    text-decoration: underline;
+
+}
+#m1{
+
+    color:blue;
+}
+.m5{
+    background-color: yellow;
+    text-decoration: underline;
+}
+#PM{
+    font-weight:bold;
+}
+.cli{
+    color: red;
+}
+.uk{
+    list-style-type: circle;
+}
+.u1{
+    list-style-type:circle;
+}
+#tO{
+    font-weight: bold;
+}
